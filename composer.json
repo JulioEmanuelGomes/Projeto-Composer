@@ -1,0 +1,18 @@
+{
+    "name": "admin/composerphp",
+    "description": "Meu Primeiro Projeto",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\Composerphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julio"
+        }
+    ]
+}
